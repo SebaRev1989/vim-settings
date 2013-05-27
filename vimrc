@@ -4,7 +4,7 @@ filetype plugin indent on
 
 set t_Co=256
 set laststatus=2
-colorscheme inkpot
+colorscheme ir_black
 
 set ttyfast
 
