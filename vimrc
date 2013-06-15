@@ -24,6 +24,9 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 
+set wildmenu
+set wildignore=*.o,*~,*.pyc
+
 autocmd FileType python,c,perl,ruby,cpp,tex,sh,eruby set number
 autocmd Filetype ruby,eruby,html,tex setlocal expandtab tabstop=2 shiftwidth=2
 
