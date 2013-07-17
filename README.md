@@ -3,7 +3,7 @@ vim_settings
 
 Configuraciones personales de vim
 
-Installation
+Instalación
 ------------
 
     git clone git@github.com:manuelramos/vim-settings.git ~/.vim
