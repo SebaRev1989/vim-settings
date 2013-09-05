@@ -4,7 +4,7 @@ filetype plugin indent on
 
 set t_Co=256
 set laststatus=2
-colorscheme ir_black
+colorscheme leo
 
 set ttyfast
 
@@ -21,6 +21,7 @@ set noswapfile
 
 set expandtab
 set smarttab
+set smartindent
 set tabstop=4
 set shiftwidth=4
 
@@ -38,3 +39,8 @@ match ExtraWhitespace /\s\+$/
 let NERDTreeShowHidden=1
 map <F2> :NERDTreeToggle<cr>
 
+" Redimensionado de paneles con Ctrl-l etc....
+map <C-l> 5<C-w>>
+map <C-h> 5<C-w><
+map <C-j> 3<C-w>+
+map <C-k> 3<C-w>-
