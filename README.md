@@ -13,6 +13,6 @@ Instalación
 ------------
 
     git clone http://github.com/manuelramos/vim-settings.git /home/miusuario/.vim
-    ln -s /home/miusuario/.vim/vimrc /home/miusuario/.vimrc
+    ln -s /home/$(whoami)/.vim/vimrc /home/$(whoami)/.vimrc
 
 
