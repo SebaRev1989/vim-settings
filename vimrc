@@ -4,7 +4,7 @@ filetype plugin indent on
 
 set t_Co=256
 set laststatus=2
-colorscheme inkpot
+colorscheme badwolf
 
 set ttyfast
 
@@ -14,6 +14,8 @@ set incsearch
 set hlsearch
 set encoding=utf8
 set nocompatible
+set cursorline
+set nu
 
 set nobackup
 set nowb
