@@ -12,7 +12,7 @@ En sistemas basados en GNU Linux/Debian:
 Instalación
 ------------
 
-    git clone http://github.com/manuelramos/vim-settings.git /home/$(whoami)/.vim
+    git clone http://github.com/SebaRev1989/vim-settings.git /home/$(whoami)/.vim
     ln -s /home/$(whoami)/.vim/vimrc /home/$(whoami)/.vimrc
 
 
